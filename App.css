@@ -1,0 +1,68 @@
+.App{
+  background-color: aliceblue;
+  
+}
+.titulo{
+  display: flex;
+  justify-content: center;
+  background-color: rgb(224, 230, 236);
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.principal{
+  width: 80%;
+  margin-left: 12%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  height: 900px; 
+  flex-direction: row;
+  margin-top: 1rem;
+}
+.cards{
+  width: 90%;
+  height: 430px;
+  background-color: rgb(41, 43, 43);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  color: rgb(221, 217, 217);
+box-shadow: 3px 2px 3px black;
+}
+.cards img{
+  width: 300px;
+  height: 250px;
+ border-radius: 10px;
+ margin-top: 15px;
+}
+.info{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  line-height: 15px;
+}
+.info span{
+  color: red;
+}
+.info p{
+font-size: 15px;
+margin-top: 7px;
+margin-left: 3px;
+}
+.info h2{
+  text-align: center;
+}
+
+@media (max-width: 500px){
+  .pai{
+    
+    grid-template-columns: 1fr;
+  }
+  .objeto{
+    width: 380px;
+    margin-bottom: 1rem;
+  }
+}
