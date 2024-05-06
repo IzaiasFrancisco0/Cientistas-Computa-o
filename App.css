@@ -57,11 +57,11 @@ margin-left: 3px;
 }
 
 @media (max-width: 500px){
-  .pai{
+  .principal{
     
     grid-template-columns: 1fr;
   }
-  .objeto{
+  .cards{
     width: 380px;
     margin-bottom: 1rem;
   }
